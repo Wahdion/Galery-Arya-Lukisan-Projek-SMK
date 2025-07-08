@@ -287,6 +287,7 @@
   <p>Galery Karya Lukisan</p>
 </div>
 
+
 <!-- Search & Filter -->
 <div class="search-filter" role="search" data-aos="fade-up" data-aos-delay="100">
   <form method="GET" action="{{ route('galery') }}" style="width: 100%; display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; align-items: center;">
