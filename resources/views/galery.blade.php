@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
+    background: from-indigo-50 to-white;
   }
 
   .title {

@@ -54,10 +54,10 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 space-y-2">
-      <a href="{{ route('galeri.user') }}" class="hover:text-indigo-600 font-semibold block flex items-center gap-2">
+      <a href="{{ route('galeri.user') }}" class="hover:text-indigo-600 font-semibold block-flex items-center gap-2">
         <i data-lucide="home" class="w-5 h-5"></i> Beranda
       </a>
-      <a href="{{ route('galery') }}" class="hover:text-indigo-600 font-semibold block flex items-center gap-2">
+      <a href="{{ route('galery') }}" class="hover:text-indigo-600 font-semibold block-flex items-center gap-2">
         <i data-lucide="image" class="w-5 h-5"></i> Galery
       </a>
       @if (!Route::is('galery') && !Route::is('galery.detail'))
